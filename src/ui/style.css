@@ -1,0 +1,28 @@
+.brand-kicker {
+  font-weight: 800;
+  letter-spacing: 0.18em;
+  font-size: 12px;
+  opacity: 0.55;
+}
+
+.brand-title {
+  font-weight: 700;
+  font-size: 22px;
+}
+
+.drop-zone {
+  border-radius: 16px;
+  border: 2px dashed alpha(currentColor, 0.28);
+  min-height: 120px;
+  padding: 16px;
+}
+
+.drop-zone.drop-hover {
+  border-color: @accent_bg_color;
+  background-color: alpha(@accent_bg_color, 0.16);
+}
+
+.run-button {
+  min-height: 44px;
+  font-weight: 800;
+}
