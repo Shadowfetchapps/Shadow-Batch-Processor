@@ -1,0 +1,15 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 128 128" role="img" aria-label="Shadow Batch Processor">
+  <defs>
+    <linearGradient id="bg" x1="12" y1="10" x2="116" y2="118" gradientUnits="userSpaceOnUse">
+      <stop stop-color="#1B1740"/>
+      <stop offset="1" stop-color="#312E81"/>
+    </linearGradient>
+  </defs>
+  <rect x="8" y="8" width="112" height="112" rx="28" fill="url(#bg)"/>
+  <rect x="28" y="30" width="52" height="18" rx="5" fill="#67E8F9"/>
+  <rect x="34" y="44" width="52" height="18" rx="5" fill="#A78BFA"/>
+  <rect x="40" y="58" width="52" height="18" rx="5" fill="#FDE68A"/>
+  <path d="M100 46v28M88 62h24" stroke="#5EEAD4" stroke-width="6" stroke-linecap="round"/>
+  <path d="M104 50l12 12-12 12" fill="none" stroke="#5EEAD4" stroke-width="6" stroke-linecap="round" stroke-linejoin="round"/>
+</svg>

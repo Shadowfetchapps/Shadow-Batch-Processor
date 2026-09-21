@@ -1,0 +1,12 @@
+[Desktop Entry]
+Type=Application
+Name=Shadow Batch Processor
+GenericName=Batch Media Processor
+Comment=Run local media pipelines on many files
+Exec=shadow-batch-processor %F
+Icon=shadow-batch-processor
+Terminal=false
+Categories=Utility;
+Keywords=batch;convert;pipeline;rename;ffmpeg;
+StartupNotify=true
+StartupWMClass=com.shadowfetch.BatchProcessor
