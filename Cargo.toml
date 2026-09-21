@@ -1,0 +1,45 @@
+[package]
+name = "shadow-batch-processor"
+version = "1.0.0"
+edition = "2021"
+description = "Bulk media pipelines for Linux"
+license = "MIT"
+repository = "https://github.com/ShadowfetchLinux/Shadow-Batch-Processor"
+homepage = "https://github.com/ShadowfetchLinux/Shadow-Batch-Processor"
+authors = ["Shadow Batch Processor contributors"]
+readme = "README.md"
+keywords = ["linux", "gtk4", "ffmpeg", "batch", "desktop"]
+categories = ["multimedia", "gui"]
+default-run = "shadow-batch-processor"
+
+[lib]
+name = "shadow_batch"
+path = "src/lib.rs"
+doctest = false
+
+[[bin]]
+name = "shadow-batch-processor"
+path = "src/main.rs"
+
+[dependencies]
+gtk = { version = "0.9", package = "gtk4", features = ["v4_14"] }
+adw = { version = "0.7", package = "libadwaita", features = ["v1_5"] }
+glib = "0.20"
+gio = "0.20"
+serde = { version = "1", features = ["derive"] }
+serde_json = "1"
+dirs = "6"
+thiserror = "2"
+which = "7"
+libc = "0.2"
+open = "5"
+uuid = { version = "1", features = ["v4"] }
+async-channel = "2"
+
+[dev-dependencies]
+tempfile = "3"
+
+[profile.release]
+lto = "thin"
+codegen-units = 1
+strip = "debuginfo"

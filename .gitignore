@@ -1,0 +1,16 @@
+/target/
+.env
+.env.*
+!.env.example
+.idea/
+.vscode/
+*.swp
+*~
+.DS_Store
+*.log
+/dist/
+/tests/output/
+gh-token
+*.pem
+*.key
+*.deb
