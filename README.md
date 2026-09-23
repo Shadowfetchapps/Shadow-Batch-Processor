@@ -24,7 +24,7 @@ Add captures to `docs/screenshots/` without private paths. The folder is reserve
 ## Install
 
 ```bash
-git clone https://github.com/ShadowfetchLinux/Shadow-Batch-Processor.git
+git clone https://github.com/Shadowfetchapps/Shadow-Batch-Processor.git
 cd Shadow-Batch-Processor
 cargo build --release
 ./scripts/install-user.sh
