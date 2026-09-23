@@ -27,7 +27,7 @@ Version: ${VERSION}
 Section: utils
 Priority: optional
 Architecture: ${ARCH}
-Maintainer: Shadow Batch Processor contributors <209457103+ShadowfetchLinux@users.noreply.github.com>
+Maintainer: Shadow Batch Processor contributors <209457103+Shadowfetchapps@users.noreply.github.com>
 Depends: ffmpeg, libgtk-4-1, libadwaita-1-0
 Installed-Size: ${SIZE}
 Homepage: https://github.com/Shadowfetchapps/Shadow-Batch-Processor
