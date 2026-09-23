@@ -38,7 +38,7 @@ pub fn show_about(parent: &impl IsA<gtk::Window>) {
         .comments("Run local media pipelines on many files. Copies by default. No account or telemetry.")
         .license_type(gtk::License::MitX11)
         .website(paths::APP_WEBSITE)
-        .issue_url("https://github.com/ShadowfetchLinux/Shadow-Batch-Processor/issues")
+        .issue_url("https://github.com/Shadowfetchapps/Shadow-Batch-Processor/issues")
         .copyright("© 2026 Shadow Batch Processor contributors")
         .build()
         .present();

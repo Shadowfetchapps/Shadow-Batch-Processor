@@ -6,7 +6,7 @@ pub const APP_ID: &str = "com.shadowfetch.BatchProcessor";
 pub const APP_NAME: &str = "Shadow Batch Processor";
 pub const APP_ICON: &str = "shadow-batch-processor";
 pub const APP_VERSION: &str = env!("CARGO_PKG_VERSION");
-pub const APP_WEBSITE: &str = "https://github.com/ShadowfetchLinux/Shadow-Batch-Processor";
+pub const APP_WEBSITE: &str = "https://github.com/Shadowfetchapps/Shadow-Batch-Processor";
 
 pub fn config_dir() -> Result<PathBuf> {
     let base = dirs::config_dir().ok_or_else(|| {

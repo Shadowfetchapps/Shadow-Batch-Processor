@@ -30,7 +30,7 @@ Architecture: ${ARCH}
 Maintainer: Shadow Batch Processor contributors <209457103+ShadowfetchLinux@users.noreply.github.com>
 Depends: ffmpeg, libgtk-4-1, libadwaita-1-0
 Installed-Size: ${SIZE}
-Homepage: https://github.com/ShadowfetchLinux/Shadow-Batch-Processor
+Homepage: https://github.com/Shadowfetchapps/Shadow-Batch-Processor
 Description: Bulk media pipelines for Linux
  Native GTK4 app that runs local rename/convert pipelines on many files.
 EOF
